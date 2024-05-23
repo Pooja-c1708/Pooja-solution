@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    width: 100%;
+}
+
+
+body{
+    /* background-image:url(https://www.pandasecurity.com/en/mediacenter/src/uploads/2018/11/hero-2-1920x1080.jpg); */
+    height: 100vh;
+    background-color: #d7f0ec;
+    background-size: cover;
+    /* filter: blur(50px); */
+    /* background-color: #000000; */
+    /* background-position: center; */
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    
+}
+
+ul{
+    list-style-type: none;
+    /* float: right; */
+    margin-top: 25px;
+    margin-left: 50%;
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 32px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 10px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+/* .logo{
+    border: 2px solid red;
+    width: 30%;
+} */
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:40px;
+}
+
+.logo img{
+    float: left;
+    border-radius: 75px;
+    margin-right: 100%;
+    height: 65px;
+    width: 65px;
+    padding: 6px;
+    /* padding-right: 20px; */
+
+    /* border: 2px solid red; */
+}
+
+.main{
+    width:100%;
+    height: 30%;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    background-color:#7ecac1;    
+
+}
+
+.btn1:hover{
+    background-color: #7ecac1;
+    color: rgb(0, 0, 0);
+}
+
+.row1,.row2{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* .container{
+    height: ;
+} */
+
+/* .row1 .contain1,.row1 .contain2,.row1   .contain3,.row1   .contain4{
+    opacity: .7;
+    border:2px solid #e71717;
+    border-radius: 25px;
+    padding: 75px;
+    background-color: #fff;
+    opacity: .9;
+    width: 12%;
+    height: 280px;
+    margin-top: 10px;
+    transform: scale(1.1);
+    
+
+} */
+/* .row1 .contain1:hover,.row1 .contain2:hover,.row1 .contain3:hover,.row1 .contain4:hover{
+    transform: scale(1.1);
+    
+} */
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:40px;
+}
+
+.btn1{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:#000;
+    background-color: #66a5ad;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 10px;
+}
+
+.btns{
+    /* border: 1px solid #fff0f0; */
+    padding: 10px 30px;
+    text-align: center;
+    color:#000000;
+    text-decoration: none;
+    /* transition: 0.6s ease; */
+    border-radius: 10px;
+    margin: 100px;
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-top: 4%;
+    width: 17%;
+    
+    /* background-color: blue; */
+
+}
+
+.contain1 img{
+    /* margin-right: 00%; */
+    height: 250px;
+    width: 290px;
+    border-radius: 15px;
+    /* justify-content: center; */
+    margin-left: -60px;
+    /* margin-bottom: 50px; */
+}
+/* 
+img:hover{
+    transform: scale(1.1);
+} */
+
+.contain2 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height:250px;
+    width: 290px;
+    margin-left: -60px;
+}
+
+.contain3 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height: 250px;
+    width: 290px;
+    margin-left: -60px;
+}
+
+.contain4 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height: 250px;
+    width: 290px;
+    margin-left: -60px;
+}
+.contain5 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height: 250px;
+    width: 290px;
+    margin-left: -60px;
+}
+
+/* .row1 .icon{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 50px;
+    margin: 10px; 
+     padding: 10px; 
+}
+
+i{
+    font-size: 30px;
+    color: #000000;
+} */
+.pic1.contain1 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height:250px;
+    width: 290px;
+    /* margin-left: -80px; */
+}
+.pic2.contain2 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height:250px;
+    width: 490px;
+    /* margin-left: -80px; */
+}
+.pic3.contain3 img{
+    border-radius: 15px;
+    /* margin-right: 00%; */
+    height:250px;
+    width: 290px;
+    /* margin-left: -80px; */
+}
